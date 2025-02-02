@@ -32,7 +32,9 @@
 <body class="font-poppins text-white bg-[#1D1616] min-h-screen">
   <header class="max-w-screen-xl mx-auto">
     <nav>
-      <div class="navbar bg-red-700 flex justify-between">
+      <!-- Nav Container -->
+      <div class="navbar flex justify-between">
+        <!-- Nav Left Side -->
         <div class="">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -101,11 +103,12 @@
             </ul>
           </div>
           <div class="flex items-center gap-2">
-            <img class="w-12" src="images/logo.png" alt="Logo Image">
-            <h3 class="text-2xl">Marketers</h3>
+            <img class="w-9 md:w-12" src="images/logo.png" alt="Logo Image">
+            <h3 class="text-xl md:text-2xl font-medium">Marketers</h3>
           </div>
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <!-- Nav Center -->
+        <div class="navbar-center hidden lg:flex lg:border-[1px] lg:border-gray-50 lg:rounded-full">
           <ul class="menu menu-horizontal px-1">
             <li>
               <details>
@@ -164,8 +167,10 @@
             <li><a>Contact</a></li>
           </ul>
         </div>
+        <!-- Nav Right Side -->
         <div class="">
-          <a class="btn">Button</a>
+          <a
+            class="py-2 px-5 rounded-lg bg-orange-500 hover:bg-orange-700 transition duration-500 cursor-pointer">Button</a>
         </div>
       </div>
     </nav>
